@@ -14,11 +14,12 @@ require 'pry'
      }
    }
   
-  
+  def remove_strawberry(contacts)
   contacts.each do |character, value| 
     value.each do |variable, value| 
       if value == 
-        :favorite_ice_cream_flavors["strawberry"].delete 
+        :favorite_ice_cream_flavors["strawberry"]
       end
     end
   end
+end
