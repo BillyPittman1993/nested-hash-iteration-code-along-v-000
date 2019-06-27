@@ -19,7 +19,10 @@ require 'pry'
     value.each do |variable, value| 
       if value == 
         :favorite_ice_cream_flavors["strawberry"]
+        value 
       end
     end
   end
 end
+
+puts value 
