@@ -28,4 +28,3 @@ require 'pry'
   end
 end
 
-puts value 
