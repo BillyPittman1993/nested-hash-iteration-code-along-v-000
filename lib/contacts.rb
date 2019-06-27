@@ -18,7 +18,7 @@ require 'pry'
   contacts.each do |character, value| 
     if character == "Freddy Mercury" 
     value.each do |variable, data| 
-      if value == 
+      if data == 
         :favorite_ice_cream_flavors
         data.delete_if {|ice_cream| 
         ice_cream == "strawberry"}
